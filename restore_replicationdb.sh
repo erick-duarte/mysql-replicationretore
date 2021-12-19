@@ -16,3 +16,4 @@ then
         MASTER_LOG_FILE='$MASTERFILE', \
         MASTER_LOG_POS=$MASTERPOSITIONS; START SLAVE;" | /usr/bin/mysql -u $MASTERUSER -p$MASTERPASS
 fi
+ 
